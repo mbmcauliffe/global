@@ -1,0 +1,19 @@
+{
+  "name": "global-static",
+  "version": "0.0.0",
+  "description": "",
+  "main": "null",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbmcauliffe-presentation/global-static.git"
+  },
+  "author": "Michael McAuliffe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbmcauliffe-presentation/global-static/issues"
+  },
+  "homepage": "https://github.com/mbmcauliffe-presentation/global-static#readme"
+}
