@@ -283,6 +283,7 @@ td, th{
 	background-color: red;
 	transform: translate(-50%, 0);
 	color: white;
+	text-shadow: black 1px 1px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
