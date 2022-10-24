@@ -1,7 +1,7 @@
 function raiseError(error){
-	document.getElementById("errorTitle").innerHTML = error.title;
+	document.getElementById("errorTitle").innerHTML = error.title + ":";
 	document.getElementById("errorMessage").innerHTML = error.message;
-	document.getElementById("errorBlock").style.setProperty("display", "block");
+	document.getElementById("errorBlock").style.setProperty("display", "flex");
 }
 
 function dismissError(){

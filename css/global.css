@@ -276,37 +276,29 @@ td, th{
 #errorBlock{
 	position: absolute;
 	left: 50vw;
-	top: 50vh;
-	width: 20vw;
-	min-height: 20vh;
+	top: 0;
+	width: 100vw;
+	min-height: 5vh;
 	height: max-content;
-	background-color: white;
-	transform: translate(-50%, -50%);
-	border: 0.3em solid red;
-	color: black;
+	background-color: red;
+	transform: translate(-50%, 0);
+	color: white;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-end;
+	justify-content: space-between;
+	align-items: center;
 	display: none;
 	z-index: 10000;
 }
 
 .errorText{
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	width: 80%;
-	padding-left: 10%;
-	padding-right: 10%;
+	width: max-content;
+	margin: 0;
 }
 
 .errorTitle{
-	border-bottom: 0.1em solid red;
-	text-align: center;
-	width: 100%;
+	font-weight: bolder;
+	margin-right: 0.2em;
 }
-
-.errorMessage{
-	width: 100%;
