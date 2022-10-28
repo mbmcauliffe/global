@@ -17,11 +17,7 @@ async function logout(){
     },
   });
 
-  if(response.status === 200){
-
-  	window.location.replace("/login");
-
-  }
+  window.location.replace("/login");
 
 }
 
