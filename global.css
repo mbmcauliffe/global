@@ -17,7 +17,7 @@ body{
 	overflow: hidden;
 	--fontSize: 20px;
 	--color1: hsl(205, 100%, 16%);
-	background: hsl(205, 100%, 95%);
+	background: hsl(205, 100%, 98%);
 	font-size: var(--fontSize);
 	display: flex;
 	flex-direction: column;
