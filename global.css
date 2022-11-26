@@ -190,6 +190,7 @@ td, th{
 .button.type2:hover{
 	background: var(--color1);
 	color: white;
+	border-color: white;
 }
 
 /*/////////////////////////////// Tiles ///////////////////////////////*/
