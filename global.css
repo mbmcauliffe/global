@@ -149,6 +149,10 @@ th, td {
 	text-align: center;
 }
 
+th > *, td > * {
+	margin: auto;
+}
+
 th{
 	position: sticky;
 	top: 0;
