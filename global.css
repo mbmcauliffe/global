@@ -100,11 +100,10 @@ input[type="radio"]{
 /*/////////////////////////////// Delete Symbol ///////////////////////////////*/
 
 .deleteSymbol, .deleteSpacer{
-	width: 1em;
-	height: 1em;
+	width: 1.2em;
+	height: 1.2em;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
-	flex-shrink: 0;
 }
 
 .deleteSymbol{
@@ -126,7 +125,7 @@ table, th, td{
 	border-collapse: collapse;
 	height: max-content;
 	width: 100%;
-	line-height: 1.5em;
+	line-height: 1.2em;
 }
 
 table{
