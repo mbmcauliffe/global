@@ -149,7 +149,7 @@ th, td {
 	text-align: center;
 }
 
-th > *, td > * {
+th > .button, td > .button {
 	margin: auto;
 }
 
