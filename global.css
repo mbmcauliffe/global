@@ -17,7 +17,8 @@ body{
 	overflow: hidden;
 	--fontSize: 20px;
 	--color1: hsl(205, 100%, 16%);
-	background: hsl(205, 100%, 98%);
+	--color2: hsl(205, 100%, 98%);
+	background: var(--color2);
 	font-size: var(--fontSize);
 	display: flex;
 	flex-direction: column;
@@ -42,8 +43,10 @@ header{
 main{
 	height:  100vh;
 	width: 100vw;
-	overflow: auto;
+	overflow: hidden;
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 footer{
@@ -121,49 +124,38 @@ input[type="radio"]{
 
 /*/////////////////////////////// Tables ///////////////////////////////*/
 
-table, th, td{
-	border-collapse: collapse;
-	height: max-content;
-	width: 100%;
-	line-height: 1.2em;
+.tableWrapper{
+	position:relative;
+	overflow-y: auto;
+	border-bottom: 0.1em solid var(--color1);
+	font-size: 0.9em;
+	margin: 0.5em auto;
 }
 
 table{
-	table-layout: fixed;
-	border-color: var(--color1);
-	background: white;
-	border-left: 0.1em solid var(--color1);
-	border-right: 0.1em solid var(--color1);
+	border-collapse: collapse;
+	min-width: 50vw;
+	max-width: 90vw;
 }
 
-td, th{
-	border-top: 0.1em solid var(--color1);
-	border-bottom: 0.1em solid var(--color1);
+thead th{
+	text-align: left;
+	background: var(--color1);
+	color: white;
+	font-weight: bold;
+}
+
+th, td {
+	padding: 0.5em;
 }
 
 th{
-	text-align: left;
+	position: sticky;
+	top: 0;
 }
 
-.hasLink:hover td{
-	background: var(--color1);
-	border-left-color: white;
-	border-right-color: white;
-	color: white;
-}
-
-.tableWrapper{
-	max-height: calc(100% - 2em);
-}
-
-.hideScroll{
-	overflow-y: scroll;
-	-ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-
-.hideScroll::-webkit-scrollbar {
-  	display: none;
+tbody tr:nth-of-type(even) {
+ background-color: white;
 }
 
 /*/////////////////////////////// Buttons ///////////////////////////////*/
