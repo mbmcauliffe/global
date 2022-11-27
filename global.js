@@ -47,9 +47,15 @@ function enterHandling(keyPress, callback=null){
   
 }
 
-function raisePrompt(){
+function raisePrompt( autofocus = null ){
 
   document.getElementById("promptBox").style.setProperty("display", "block");
+
+  if ( autofocus != null ) {
+
+    document.getElementById(autofocus).focus();
+
+  }
 
 }
 
