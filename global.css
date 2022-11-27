@@ -73,6 +73,12 @@ input, select, option{
 	font-size: var(--fontSize);
 }
 
+select{
+	width:100%;
+	background: white;
+	height: 1.3em
+}
+
 input[type="radio"]{
 	display: none;
 }
@@ -87,7 +93,7 @@ input[type="radio"]{
 .logo{
 	height: 1.2em;
 	width: 1.2em;
-	background-image: url(../img/logo.png);
+	background-image: url(./img/logo.png);
 	background-size: cover;
 }
 
