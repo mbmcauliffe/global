@@ -139,7 +139,6 @@ table{
 }
 
 thead th{
-	text-align: left;
 	background: var(--color1);
 	color: white;
 	font-weight: bold;
@@ -147,6 +146,7 @@ thead th{
 
 th, td {
 	padding: 0.5em;
+	text-align: center;
 }
 
 th{
@@ -195,7 +195,26 @@ tbody tr:nth-of-type(even) {
 .button.type2:hover{
 	background: var(--color1);
 	color: white;
-	border-color: white;
+}
+
+.button.red{
+	background: red;
+	border-color: red;
+}
+
+.button.red:hover{
+	color: red;
+	background-color: white;
+}
+
+.button.green{
+	background: green;
+	border-color: green;
+}
+
+.button.green:hover{
+	color: green;
+	background-color: white;
 }
 
 /*/////////////////////////////// Tiles ///////////////////////////////*/
