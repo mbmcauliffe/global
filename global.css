@@ -136,6 +136,12 @@ table{
 
 td, th{
 	border: 0.1em solid var(--color1);
+	border-left: none;
+	border-right: none;
+}
+
+th{
+	text-align: left;
 }
 
 .hasLink:hover td{
