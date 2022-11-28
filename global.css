@@ -164,6 +164,12 @@ tbody tr:nth-of-type(even) {
  background-color: white;
 }
 
+.hasLink:hover{
+	color: white;
+	background: var(--color1);
+	font-weight: bold;
+}
+
 /*/////////////////////////////// Buttons ///////////////////////////////*/
 
 .button{
