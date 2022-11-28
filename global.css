@@ -165,7 +165,7 @@ tr{
 	background: white;
 }
 
-.hasLink:hover{
+.hasLink:hover > *{
 	color: white;
 	background: var(--color1);
 	cursor: pointer;
