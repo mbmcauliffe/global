@@ -160,8 +160,9 @@ th{
 	top: 0;
 }
 
-tbody tr:nth-of-type(even) {
- background-color: white;
+tr{
+	border-bottom: 0.1em solid hsl(0, 0%, 90%);
+	background: white;
 }
 
 .hasLink:hover{
