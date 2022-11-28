@@ -167,7 +167,7 @@ tr{
 
 .hasLink:hover > *{
 	color: white;
-	background: var(--color1);
+	background: hsl(205, 100%, 25%);
 	cursor: pointer;
 }
 
