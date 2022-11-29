@@ -211,23 +211,25 @@ tr{
 }
 
 .button.red{
-	background: red;
+	color: red;
+	background: white;
 	border-color: red;
 }
 
 .button.red:hover{
-	color: red;
-	background-color: white;
+	color: white;
+	background: red;
 }
 
 .button.green{
-	background: green;
+	color: green;
+	background: white;
 	border-color: green;
 }
 
 .button.green:hover{
-	color: green;
-	background-color: white;
+	color: white;
+	background: green;
 }
 
 /*/////////////////////////////// Tiles ///////////////////////////////*/
