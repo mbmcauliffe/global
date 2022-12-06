@@ -273,11 +273,13 @@ tr{
 /*/////////////////////////////// Pop-Up Prompts ///////////////////////////////*/
 
 #promptBox{
-	width: 25em;
+	width:max(max-content, 25em);
 	background: hsl(0, 0%, 98%);
 	padding: 2.5em;
 	height: max-content;
 	max-height: calc(90vh - 5em);
+	max-width: 90vw;
+	min-width: unset;
 	border: 0.2em solid var(--color1);
 	position: absolute;
 	transform: translate(-50%, -50%);
