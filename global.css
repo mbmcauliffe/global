@@ -299,6 +299,7 @@ tr{
 }
 
 .promptScrollBox{
+	margin-top: 1em;
 	height: max-content;
 	max-height: calc(90vh - 9em - (var(--fontSize) * 1.2) - 0.5em);
 	width: 100%;

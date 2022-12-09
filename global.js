@@ -78,3 +78,28 @@ function closePrompt(clear=false){
   }
 
 }
+
+async function placeFetch(endpoint, method, body=null, callback=function (){ window.location.replace("/"); } ){
+
+  const response = await fetch('/login/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(payload),
+  });
+
+  if(response.status === 200){
+    callback();
+    return
+  }
+
+  if ( response.status === 400 ) {
+    const textResponse = await response.text();
+
+    const error = await JSON.parse(textResponse);
+    console.log(error);
+    raiseError(error);
+  } 
+
+} 
