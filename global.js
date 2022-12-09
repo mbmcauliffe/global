@@ -90,7 +90,7 @@ async function placeFetch(endpoint, method, body=null, callback=function (){ win
   });
 
   if ( body !== null ) {
-    reponse.body = JSON.stringify(body);
+    response.body = JSON.stringify(body);
   }
 
   if(response.status === 200){
