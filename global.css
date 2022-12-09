@@ -15,7 +15,7 @@ body{
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
-	--fontSize: 20px;
+	--fontSize: max(20px, 2.5vh);
 	--color1: hsl(205, 100%, 16%);
 	--color2: hsl(205, 100%, 98%);
 	background: var(--color2);
