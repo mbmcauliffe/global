@@ -81,13 +81,17 @@ function closePrompt(clear=false){
 
 async function placeFetch(endpoint, method, body=null, callback=function (){ window.location.replace("/"); } ){
 
-  const response = await fetch(endpoint, {
+  var response = await fetch(endpoint, {
     method: method,
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify(body),
+    
   });
+
+  if ( body !== null ) {
+    reponse.body = JSON.stringify(body);
+  }
 
   if(response.status === 200){
     callback();
