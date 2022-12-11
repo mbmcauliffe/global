@@ -102,6 +102,10 @@ input[type="radio"]{
 	background-size: cover;
 }
 
+input[ type="checkbox" ]{
+	display:none;
+}
+
 /*/////////////////////////////// Delete Symbol ///////////////////////////////*/
 
 .deleteSymbol, .deleteSpacer{
@@ -230,6 +234,29 @@ tr{
 .button.green:hover{
 	color: white;
 	background: green;
+}
+
+.toggle{
+	margin: 0 auto 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	height: 1.2em;
+	width: 2.4em;
+	border: 0.1em solid var(--color1);
+	border-radius: 1.2em;
+	background: hsl(0, 60%, 50%);
+}
+
+input[ type = "checkbox" ]:checked ~ .toggle{
+	background: hsl(120, 60%, 40%);
+	justify-content: flex-end;
+}
+
+.toggleCircle{
+	height: 1.2em;
+	width: 1.2em;
+	border-radius: 0.6em;
+	background: white;
 }
 
 /*/////////////////////////////// Tiles ///////////////////////////////*/
