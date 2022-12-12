@@ -380,3 +380,13 @@ input[ type = "checkbox" ]:checked ~ .toggle{
 	font-weight: bolder;
 	margin-right: 0.2em;
 }
+
+/*/////////////////////////////// Mobile ///////////////////////////////*/
+
+@media screen and (max-width: 120vh) { /* All contents apply on mobile */
+
+	.desktopOnly{
+		display: none;
+	}
+
+}
