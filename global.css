@@ -88,6 +88,12 @@ input[type="radio"]{
 	display: none;
 }
 
+input[type="password"], input[type="email"], input[type="text"]{
+	padding: 0.2em;
+	border-width: 0.1em;
+	width: calc( 100% - 0.6em );
+}
+
 .flexRow{
 	display: flex;
 	justify-content: space-evenly;
