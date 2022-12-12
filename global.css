@@ -30,13 +30,15 @@ header{
 	flex-shrink: 0;
 	background: hsl(0, 0%, 100%);
 	font-size: min( var(--fontSize), 5vh );
-	height: 2em;
+	height:max-content;
+	min-height: 2em;
 	width: 98%;
 	padding-left: 1%;
 	padding-right: 1%;
 	border-bottom: 0.2em solid var(--color1);
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	align-items: center;
 	position: relative;
 }
