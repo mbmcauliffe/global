@@ -29,6 +29,7 @@ body{
 header{
 	flex-shrink: 0;
 	background: hsl(0, 0%, 100%);
+	font-size: min( var(--fontSize), 5vh );
 	height: 2em;
 	width: 98%;
 	padding-left: 1%;
@@ -51,9 +52,9 @@ main{
 
 footer{
 	flex-shrink: 0;
-	font-size: calc(0.5 * var(--fontSize));
-	height: var(--fontSize);
-	line-height: var(--fontSize);
+	font-size: min(calc(0.5 * var(--fontSize)), 2vh);
+	height: 2em;
+	line-height: 2em;
 	width: 90%;
 	padding-left: 5%;
 	padding-right: 5%;
