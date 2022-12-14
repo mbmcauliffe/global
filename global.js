@@ -49,7 +49,7 @@ function enterHandling(keyPress, callback=null){
 
 function raisePrompt( autofocus = null ){
 
-  document.getElementById("promptBox").style.setProperty("display", "block");
+  document.getElementById("promptBox").style.setProperty("display", "flex");
 
   if ( autofocus != null ) {
 
