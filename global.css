@@ -324,7 +324,6 @@ input[ type = "checkbox" ]:checked ~ .toggle{
 	left: 50%;
 	overflow: hidden;
 	display: none;
-	flex-wrap: wrap;
 }
 
 .promptHeading{
