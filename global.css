@@ -309,13 +309,13 @@ input[ type = "checkbox" ]:checked ~ .toggle{
 /*/////////////////////////////// Pop-Up Prompts ///////////////////////////////*/
 
 #promptBox{
-	width:25em;
+	width:max-content;
 	background: hsl(0, 0%, 98%);
 	padding: 2.5em;
 	height: max-content;
 	max-height: calc(90vh - 5em);
 	max-width: 90vw;
-	min-width: unset;
+	min-width: 25em;
 	border: 0.2em solid var(--color1);
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -343,7 +343,7 @@ input[ type = "checkbox" ]:checked ~ .toggle{
 	margin-top: 1em;
 	height: max-content;
 	max-height: calc(90vh - 9em - (var(--fontSize) * 1.2) - 0.5em);
-	width: 100%;
+	width: 25em;
 	overflow-y: auto;
 }
 
