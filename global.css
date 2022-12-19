@@ -309,7 +309,7 @@ input[ type = "checkbox" ]:checked ~ .toggle{
 /*/////////////////////////////// Pop-Up Prompts ///////////////////////////////*/
 
 #promptBox{
-	width:max-content;
+	width:25em;
 	background: hsl(0, 0%, 98%);
 	padding: 2.5em;
 	height: max-content;
